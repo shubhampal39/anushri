@@ -81,7 +81,8 @@
   margin: 0;
   padding: 0;
 }
-  
+ 
+
 .name .left{
   list-style: none;
   color: white;
@@ -169,7 +170,7 @@ transition-delay: 0.24s;
   h2 {
     font-size: 2rem;
     text-transform: uppercase;
-    color: #303030;
+    color: #FF69B4s;
     font-weight: 600;
     margin-bottom: 30px;
   }
@@ -180,6 +181,14 @@ transition-delay: 0.24s;
     font-weight: 400;
     margin-bottom: 30px;
   }  
+.exp{
+  background:linear-gradient( 160deg,#ff69b4 55%, #fff 0%);
+}
+.abc{
+  padding: 5px;
+}
+
+
   .jumbotron {
    
     clip-path: polygon(100% 0%,100% 77%,50% 100%,0 75%, 0 0);
@@ -201,7 +210,7 @@ transition-delay: 0.24s;
     font-size: 50px;
   }
   .logo {
-    color: #f4511e;
+    color: #FF69B4;
     font-size: 100px;
   }
   .thumbnail {
@@ -235,12 +244,13 @@ transition-delay: 0.24s;
     font-style: normal;
   }
   .panel {
-    border: 1px solid #f4511e; 
+    border: 1px solid #FF69B4; 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
   }
   .panel:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    transform: translateY(20px);
   }
   .panel-footer .btn:hover {
     border: 1px solid #f4511e;
@@ -248,8 +258,8 @@ transition-delay: 0.24s;
     color: #f4511e;
   }
   .panel-heading {
-    color: #fff !important;
-    background-color: #f4511e !important;
+    color: ##FF69B4 !important;
+    background-color: #fff !important;
     padding:5px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
